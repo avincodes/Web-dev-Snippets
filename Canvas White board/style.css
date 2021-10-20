@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+#toolbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    font: bold 15px verdana;
+    align-items: center;
+}
+
+#radiusbar{
+    width: 300px;
+    padding: 10px;
+}
+
+#radiusvalue, .incredecre, #savebtn{
+    padding: 7px 8px;
+    border-radius: 50%;
+    margin-left: 20px;
+    box-shadow: rgb(117, 175, 238) 10px 10px 10px inset, rgb(79, 135, 196) -10px -10px 10px inset;
+}
+
+.incredecre:hover, #savebtn:hover{
+    cursor: pointer;
+    box-shadow: rgb(79, 135, 196) -10px -10px 10px inset, rgb(117, 175, 238) 10px 10px 10px inset;
+}
+
+#savebar{
+    width: 300px;
+}
+
+#savebtn{
+    margin-left: 250px;
+}
+
+#colorsbar{
+    width: 500px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.colorsbtn{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.active{
+    border: 2px solid white;
+}
