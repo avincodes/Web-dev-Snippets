@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        img{
+            border:5px solid yellow;
+        }
+        .buttons{
+            margin-top: 5px;
+        }
+        input{
+            padding: 15px;
+            border-radius: 5px;
+        }
+        #btn1, #btn4{
+            background-color: yellow;
+        }
+        #btn2{
+            background-color: green;
+            margin-left: 30px;
+            margin-right: 10px;
+        }
+        #btn3{
+            background-color: red;
+            margin-right: 30px;
+        }
+    </style>
+    <script>
+            var timerID;
+            var count = 0;
+
+            function showNext(){
+                count++;
+                if (count > 6)
+                    count = 1;
+                document.images[0].src = "img/"+ count + ".jpg";
+            }
+
+            function slideShow(){
+                timerID = setInterval(function () {
+                    count++;
+                    if (count > 6)
+                        count = 1;
+                    document.images[0].src = "img/"+ count + ".jpg";
+                }, 1000);
+            }
+
+            function stopSlideShow(){
+                clearInterval(timerID);
+            }
+
+            function showPrevious(){
+                count--;
+                if (count < 1)
+                    count = 6;
+                else if(count > 6)
+                    count = 1;    
+                document.images[0].src = "img/"+ count + ".jpg";
+            }
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Slide Show Game</h1>
+
+        <img src="img/1.jpg" width="200" height="200">
+
+        <div class="buttons">
+            <input type="button" id="btn1" value="<" onclick="showNext()">
+            <input type="button" id="btn2" value="Play" onclick="slideShow()">
+            <input type="button" id="btn3" value="Stop" onclick="stopSlideShow()">
+            <input type="button" id="btn4" value=">" onclick="showPrevious()">
+        </div>
+    </div>
+    
+</body>
+</html>
