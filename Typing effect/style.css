@@ -4,8 +4,8 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
+  font-family: 'Anton',monospace;
+  font-size: 6em;
 }
 
 @keyframes typing {
