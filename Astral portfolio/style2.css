@@ -1,0 +1,108 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon{
+    margin-left: 50px;
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+}
+
+.icon:hover{
+    opacity: 10;
+    cursor: pointer;
+}
+
+#container{
+    margin-left:525px;
+    margin-top: 130px;
+    padding-bottom: 12px;
+}
+
+#card{
+    background-color: white;
+    width: 50%;
+    margin-left:350px;
+    height:400px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+#title{
+    position: relative;
+    margin: 0px;
+    left: 35px;
+    top: 15px;
+}
+
+#name{
+    border: 0em;
+    background-color:rgba(221, 218, 218, 0.589);
+    padding-top: 7px;
+    padding-left: 17px;
+    padding-bottom: 7px;
+    position: relative;
+    left: 35px;
+    width: 40%;
+    top: 20px;
+}
+
+#email{
+    border: 0em;
+    background-color:rgba(221, 218, 218, 0.589);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    position: relative;
+    left: 45px;
+    width: 40%;
+    top: 20px;
+}
+
+#subject{
+    border: 0em;
+    background-color:rgba(221, 218, 218, 0.589);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    position: relative;
+    left: 35px;
+    top: 35px;
+    width: 84.5%;
+}
+
+#message{
+    border: 0em;
+    background-color:rgba(221, 218, 218, 0.589);
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    position: relative;
+    left: 35px;
+    top: 52px;
+    width: 84.5%;
+}
+
+#submit{
+    border: 0em;
+    padding: 10px;
+    position: relative;
+    left: 35px;
+    top: 65px;
+    color: #ccc;
+    background-color:rgb(0, 0, 0);
+    width: 20%;     
+}
+
+#submit:hover{
+    cursor: pointer;
+    color: #000000;
+    background-color:rgb(231, 183, 183);
+}
+
+#main{
+    opacity: 1;
+}
+

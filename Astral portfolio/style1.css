@@ -1,0 +1,56 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#container{
+    margin-left:525px;
+    margin-top: 130px;
+    padding-bottom: 12px;
+}
+
+.icon{
+    margin-left: 50px;
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+}
+
+.icon:hover{
+    opacity: 10;
+    cursor: pointer;
+}
+
+#card{
+    background-color: white;
+    width: 50%;
+    margin-left:350px;
+    height:820px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+.title{
+    position: relative;
+    top: 25px;
+    left: 5%;
+    font-size:50px;
+    margin: 0px;
+}
+
+p{
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top:29px;
+}
+
+#pic{
+    margin-top:15px;
+    margin-left: 40px;
+    width: 180px;
+    height: 150px;
+}
+
+#main{
+    opacity: 1;
+}

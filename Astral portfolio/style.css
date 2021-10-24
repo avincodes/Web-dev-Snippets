@@ -1,0 +1,72 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon{
+    margin-left: 50px;
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+}
+
+.icon:hover{
+    opacity: 10;
+    cursor: pointer;
+}
+
+#container{
+    margin-left:525px;
+    margin-top: 130px;
+    padding-bottom: 12px;
+}
+
+#card{
+    background-color: white;
+    width: 50%;
+    margin-left:350px;
+    height:349px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+#name{
+    position: relative;
+    top: 35%;
+    left: 5%;
+    font-size:50px;
+    margin:0%;
+}
+
+#role{
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+
+.underline{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.underline:hover{
+    cursor: pointer;
+}
+
+#credits{
+    color: rgba(255, 255, 255, 0.479);
+    text-align: center;
+}
+
+#profile{
+    height: 100%;
+    position: relative;
+    left: 64%;
+    border: 1px solid #ccc;
+    border-radius:2%;
+    bottom: 31.5%;
+}
+
+#main{
+    opacity: 1;
+}
