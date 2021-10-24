@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/baffle-react@0.0.2/lib/index.min.js"></script>
+	
+	<title></title>
+</head>
+<body>
+	<div class="text">hello</div>
+	<button class="btn" id="btn">Click here to see the offer</button>
+			
+    		<script type="text/javascript">
+ 				const revealbutton = document.querySelector(".btn");
+				const text = baffle(".text");
+				text.set({
+					characters:'+-~!=*',
+					speed:120
+					});
+				text.start();
+				revealbutton.addEventListener("click",e =>{text.reveal(2000);});
+			</script>
+
+</body>
+</html>

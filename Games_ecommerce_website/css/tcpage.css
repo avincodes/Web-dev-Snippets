@@ -1,0 +1,174 @@
+.headercontainer{
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	
+	background-color:black;
+	display: flex;
+}
+.themebpink{
+	z-index: -9;
+	background-color: #2F4F4F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logo{
+padding-left: 50px;
+}
+.particles{
+	background-color: black;
+	height: 100px;
+	width: 800px;
+	}
+
+hr.hr1{
+	background-color: red;
+	height:15px;
+	margin: 0px;
+	animation: load 1s linear infinite;
+	
+}
+@keyframes load{
+	0%{background-image: linear-gradient(90deg,#FFC0CB,#FFB6C1)}
+	10%{background-image: linear-gradient(90deg,#FFB6C1,#F08080)}
+	20%{background-image: linear-gradient(90deg,#F08080,#FF69B4)}
+	30%{background-image: linear-gradient(90deg,#FF69B4,#FF1493)}
+	40%{background-image: linear-gradient(90deg,#FF1493,#FFB6C1)}
+	50%{background-image: linear-gradient(90deg,#FFB6C1,#C71585)}
+	60%{background-image: linear-gradient(90deg,#FF1493,#FFB6C1)}
+	70%{background-image: linear-gradient(90deg,#FF69B4,#FF1493)}
+	80%{background-image: linear-gradient(90deg,#F08080,#FF69B4)}
+	90%{background-image: linear-gradient(90deg,#FFB6C1,#F08080)}
+	100%{background-image: linear-gradient(90deg,#FFC0CB,#FFB6C1)}
+
+}
+.nav {
+
+	height: 100px;
+	margin: 0px;
+	display:flex;
+	
+}
+a{
+	text-decoration: none;
+	font-family: helvetica;
+}
+.nav0,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+padding: 10px;
+
+margin:20px;
+font-size:15px; 
+}
+.a0 i {
+	color: red;
+
+}
+.a0 span{
+	opacity: 0;
+	color: red;
+}
+.a1 i{
+	color: #6AFF09;
+}
+.a1 span{
+	opacity: 0;
+	color: #6AFF09;
+}
+
+.a2 i{
+	color: blue;
+}
+.a2 span{
+	opacity: 0;
+	color: blue;
+}
+}
+.a3 i{
+	color: orange;
+}
+.a3 span{
+	opacity: 0;
+	color: orange;
+}
+.a4 i{
+	color: #FF00E2;
+}
+.a4 span{
+	opacity: 0;
+	color: #FF00E2;
+}
+.a5 i{
+	color: yellow;
+}
+.a5 span{
+	opacity: 0;
+	color: yellow;
+}
+.a6 i{
+	color: pink;
+}
+.a6 span{
+	opacity: 0;
+	color: pink;
+}
+
+
+
+.nav0:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
+	transform: translateY(-10px);
+}
+.nav0 .a0 span:hover,.nav1 .a1 span:hover,.nav2 .a2 span:hover,.nav3 .a3 span:hover,.nav4 .a4 span:hover,.nav5 .a5 span:hover,.nav6 .a6 span:hover{
+	opacity: 1;
+	
+}
+.textbox{
+	background-color: #F48FB1;
+	border-radius: 30px;
+	box-shadow: 4px 4px 10px black;
+	color: #880E4F;
+	margin: 100px;
+
+}
+.textbox ol{
+	font-size: 40px;
+	text-align-last: center;
+	font-family: verdana;
+	font-weight: bold;
+}
+.textbox li{
+	font-size: 25px;
+	padding:10px; 
+}
+
+
+.footer{
+	height: 200px;
+	background-color: black;
+	display: flex;
+}
+.footer img{
+	
+	height: 200px;
+	padding-left: 500px;
+
+}
+.follow{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	
+}
+.feedback{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	padding-left:500px;
+	
+}
+.copyright{
+	padding-top: 10px;
+	background-color: black;
+	margin: 0px;
+	text-align: center;
+	color: white;
+}

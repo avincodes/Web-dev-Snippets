@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="../css/offerspage.css">
+	<link rel="short icon" type="text/css" href="../images/Gamer PIzza logo.png">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+   
+    
+	<title>Gamer Pizza</title>
+</head>
+<body>
+	
+		<div class="headercontainer">
+			<div class="logo">
+			<img src="../images/Gamer PIzza logo.png" width="100px">
+			</div>
+			
+			<div class="particles" id="particles-js"></div>
+			<script type="text/javascript" src="../js/particles.js"></script>
+			<script type="text/javascript" src="../js/app.js"></script>
+			
+			<div class="nav">
+			<div class="nav0"><a class="a0" href="main.html"><i class="fa fa-home fa-2x" ></i><br><span>Home</span></a></div>
+			<div class="nav1"><a class="a1" href="aboutus.html"><i class="fa fa-info fa-2x"></i><br><span>About us</span></a></div>
+			<div class="nav2"><a class="a2" href="drive.html"><i class="fa fa-hdd-o fa-2x"></i><br><span>Drive</span></a></div>
+			<div class="nav3"><a class="a3" href="games.html"><i class="fa fa-gamepad fa-2x"></i><br><span>Games</span></a></div>
+			<div class="nav4"><a class="a4" href="login.html"><i class="fa fa-user fa-2x"></i><br><span>Login</span></a></div>
+			<div class="nav5"><a class="a5" href="offers.html"><i class="fa fa-inr fa-2x"></i><br><span>Offers</span></a></div>
+			<div class="nav6"><a class="a6" href="tc.html"><i class="fa fa-asterisk fa-2x"></i><br><span>T&C</span></a></div>
+			</div>
+		</div>
+	<hr class="hr1">
+	<div class="themeyellow">
+		<marquee style="color: yellow">The discounts are for limited number of stocks only. Hurry up to get your game! --------The offers last for a limited time only and are non refundable.</marquee>
+		<div class="container">
+			<div class="text">DISCOUNT OF THE WEEK!</div>
+			<div class="offer">
+				Cyberpunk 2077 at only &#8377;199<br>
+				
+		
+			</div>
+			<button class="buy"><a href="billingform.html">Buy Now!</a></button><br>
+			<button class="btn" id="btn">Click here to see the offer</button>
+			
+    		<script type="text/javascript">
+ 				const rvlbtn  =document.querySelector(".btn")
+				const text = baffle(".offer");
+				text.set({
+					characters:'██▒ >▒▒░▒ ▓▒▓▓> ▓▒░ █░█/░ ░▒▓░ /░█ ░▒░> █░█▒',
+					speed:100
+					});
+				text.start();
+				rvlbtn.addEventListener("click",e=>{text.reveal(4000);});
+			</script>
+			
+			 
+		</div>
+
+		
+
+	</div>
+
+
+	<hr class="hr1">
+<div class="footer">
+	
+	<div class="follow">
+		<li type="none">Follow us</li><br>
+		<a href="https://api.instagram.com/v1/users/userID?client_id=random_person2323"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/intent/tweet?screen_name=random_person2323"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+		<a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+	</div>
+	<img src="../images/Gamer PIzza logo.png"><br>
+	
+	<div class="feedback">
+		<li type="none">Feedback</li><br>
+		<a href="mailto:dontreply@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+		<a href="tel:+919981439058"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+		<a href="https://api.WhatsApp.com/sned?phone=+919981439058"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+	</div>
+</div>
+<div class="copyright">
+<hr class="hr2">	
+<span>Copyright &copy; 2021 Gamer Pizza. All rights &reg; reserved.</span>
+</div>	
+</body>
+</html>

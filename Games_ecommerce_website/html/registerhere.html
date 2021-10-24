@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="../js/registrationvalidation.js">
+	<link rel="stylesheet" type="text/css" href="../css/registerherepage.css">
+	<link rel="short icon" type="text/css" href="../images/Gamer PIzza logo.png">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script  src="registrationvalidation.js"></script>
+	<title>Gamer Pizza</title>
+	
+</head>
+<body>
+	<div class="headercontainer">
+			<div class="logo">
+			<img src="../images/Gamer PIzza logo.png" width="100px">
+			</div>
+			
+			<div class="particles" id="particles-js"></div>
+			<script type="text/javascript" src="../js/particles.js"></script>
+			<script type="text/javascript" src="../js/app.js"></script>
+			
+			<div class="nav">
+			<div class="nav0"><a class="a0" href="main.html"><i class="fa fa-home fa-2x" ></i><br><span>Home</span></a></div>
+			<div class="nav1"><a class="a1" href="aboutus.html"><i class="fa fa-info fa-2x"></i><br><span>About us</span></a></div>
+			<div class="nav2"><a class="a2" href="drive.html"><i class="fa fa-hdd-o fa-2x"></i><br><span>Drive</span></a></div>
+			<div class="nav3"><a class="a3" href="games.html"><i class="fa fa-gamepad fa-2x"></i><br><span>Games</span></a></div>
+			<div class="nav4"><a class="a4" href="login.html"><i class="fa fa-user fa-2x"></i><br><span>Login</span></a></div>
+			<div class="nav5"><a class="a5" href="offers.html"><i class="fa fa-inr fa-2x"></i><br><span>Offers</span></a></div>
+			<div class="nav6"><a class="a6" href="tc.html"><i class="fa fa-asterisk fa-2x"></i><br><span>T&C</span></a></div>
+			</div>
+	</div>
+	<hr class="hr1">
+<div class="themepink">
+	<div class="form">
+		<div class="formlogo">
+			<img src="../images/Gamer PIzza logo.png">
+		</div>
+		
+		<form onsubmit="return validation()" name="Registration" method="post">
+			<h1>Register</h1>
+			<label >Name</label><br><input type="text" name="Name" placeholder="Full Name" required="" id="name"><br><span id="nameerror" style="color:red"></span><br>
+			<label >Age</label><br><input type="number" name="Age" placeholder="Age" required=""  id="age"><br><span id="ageerror" style="color:red"></span><br>
+			
+			<label >Mobile number</label><br><input type="text" name="Number" placeholder="Mobile Number" required="" id="Number"><br><span id="Numbererror" style="color:red"></span><br>
+				
+			<label >E-mail</label><br><input type="emailid" name="E-mail" placeholder="E- mail" required="" id="email"><br><span id="emailerror" style="color:red"></span><br>
+			<label >H.no</label><br><input type="text" name="H.no" placeholder="H.no" required="" id="H.no"><br><span id="H.noerror" style="color:red"></span><br>
+			<label >Area</label><br><input type="text" name="Area" placeholder="Area" required="" id="area"><br><span id="areaerror" style="color:red"></span><br>
+			<label >City</label><br><input type="text" name="City" placeholder="City" required="" id="city"><br><span id="cityerror" style="color:red"></span><br>
+			<label >State</label><br><input type="text" name="State" placeholder="State" required="" id="state"><br><span id="stateerror" style="color:red"></span><br>
+			<label >Country</label><br><input type="text" name="Country" placeholder="Country" required="" id="country"><br><span id="countryerror" style="color:red"></span><br>
+			<label >Password</label><br><input type="password" name="Password" placeholder="Password" required="" id="password"><br><span id="passworderror" style="color:red"></span><br>
+			<label >Confirm password</label><br><input type="password" name="Confirm Password" placeholder="Confirm password" required="" id="conpassword"><br><span id="conpassworderror" style="color:red"></span><br>
+
+			<button type="submit" >Register</button>
+
+			
+		</form>
+
+	</div>
+	<div class="container">
+		<hr class="hr2">
+		<span>Existing User?</span>
+		
+    </div>
+    <div class="btn">
+	<a href="login.html"><button>Login</button></a>
+	</div>	
+</div>
+<hr class="hr1">
+<div class="footer">
+	
+	<div class="follow">
+		<li type="none">Follow us</li><br>
+		<a href="https://api.instagram.com/v1/users/userID?client_id=random_person2323"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/intent/tweet?screen_name=random_person2323"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+		<a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+	</div>
+	<img src="../images/Gamer PIzza logo.png"><br>
+	
+	<div class="feedback">
+		<li type="none">Feedback</li><br>
+		<a href="mailto:dontreply@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+		<a href="tel:+919981439058"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+		<a href="https://api.WhatsApp.com/sned?phone=+919981439058"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+	</div>
+</div>
+<div class="copyright">
+<hr class="hr2">	
+<span>Copyright &copy; 2021 Gamer Pizza. All rights &reg; reserved.</span>
+</div>
+<script type="text/javascript">
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbzi2N3WpsrOOXAe8xprLz6SfHwczgBBCYujvEu1xF2kBMqlCMDIsLgw/exec'
+            const form = document.forms['Registration']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Registration successful!"))
+                .catch(error => console.error('Error!', error.message))
+            })
+</script>
+<script type="text/javascript" src="../js/registrationvalidation.js">	</script>	
+</body>
+</html>
+            
