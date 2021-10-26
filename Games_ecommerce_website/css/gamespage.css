@@ -1,0 +1,247 @@
+.headercontainer{
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	
+	background-color:black;
+	display: flex;
+}
+.themeorange{
+	z-index: -9;
+	background-color: #2F4F4F;
+	padding-bottom: 10px;
+}
+.logo{
+padding-left: 50px;
+}
+.particles{
+	background-color: black;
+	height: 100px;
+	width: 800px;
+	}
+
+hr.hr1{
+	background-color: red;
+	height:15px;
+	margin: 0px;
+	animation: load 1s linear infinite;
+	
+}
+@keyframes load{
+	0%{background-image: linear-gradient(90deg,#FFCC80,#FFB74D)}
+	10%{background-image: linear-gradient(90deg,#FFB74D,#FFEE58)}
+	20%{background-image: linear-gradient(90deg,#FFEE58,#FFA726)}
+	30%{background-image: linear-gradient(90deg,#FFA726,#FF9800)}
+	40%{background-image: linear-gradient(90deg,#FF9800,#FFB74D)}
+	50%{background-image: linear-gradient(90deg,#FFB74D,#FB8C00)}
+	60%{background-image: linear-gradient(90deg,#FF9800,#FFB74D)}
+	70%{background-image: linear-gradient(90deg,#FFA726,#FF9800)}
+	80%{background-image: linear-gradient(90deg,#F08080,#FFA726)}
+	90%{background-image: linear-gradient(90deg,#FFB74D,#F08080)}
+	100%{background-image: linear-gradient(90deg,#FFCC80,#FFB74D)}
+
+}
+.nav {
+
+	height: 100px;
+	margin: 0px;
+	display:flex;
+	
+}
+a{
+	text-decoration: none;
+	font-family: helvetica;
+}
+.nav0,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+padding: 10px;
+
+margin:20px;
+font-size:15px; 
+}
+.a0 i {
+	color: red;
+
+}
+.a0 span{
+	opacity: 0;
+	color: red;
+}
+.a1 i{
+	color: #6AFF09;
+}
+.a1 span{
+	opacity: 0;
+	color: #6AFF09;
+}
+
+.a2 i{
+	color: blue;
+}
+.a2 span{
+	opacity: 0;
+	color: blue;
+}
+}
+.a3 i{
+	color: orange;
+}
+.a3 span{
+	opacity: 0;
+	color: orange;
+}
+.a4 i{
+	color: #FF00E2;
+}
+.a4 span{
+	opacity: 0;
+	color: #FF00E2;
+}
+.a5 i{
+	color: yellow;
+}
+.a5 span{
+	opacity: 0;
+	color: yellow;
+}
+.a6 i{
+	color: pink;
+}
+.a6 span{
+	opacity: 0;
+	color: pink;
+}
+
+
+
+.nav0:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
+	transform: translateY(-10px);
+}
+.nav0 .a0 span:hover,.nav1 .a1 span:hover,.nav2 .a2 span:hover,.nav3 .a3 span:hover,.nav4 .a4 span:hover,.nav5 .a5 span:hover,.nav6 .a6 span:hover{
+	opacity: 1;
+	
+}
+.containernav{
+	display: flex;
+	text-align-last: center;
+	background-color: #778899;
+	
+}
+.type1,.type2,.type3,.type4{
+	padding: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.A1,.A2,.A3,.A4{
+	color: orange;
+	text-decoration: none;
+	font-size: 30px; 
+}
+.type1:hover,.type2:hover,.type3:hover,.type4:hover{
+	box-shadow: 4px 4px 8px black;
+	background-color: #696969;
+}
+.A1:hover,.A2:hover,.A3:hover,.A4:hover{
+	color: #FFD700;
+	text-decoration: none;
+	font-size: 30px;
+}
+.heading{
+	text-align-last: center;
+	font-family: Rockwell;
+	font-size: 50px;
+	color: Orange;
+	
+}
+
+.container1,.container2,.container3
+{
+    display: flex;
+    margin: 50px;
+    padding-left: 180px
+
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9{
+	padding-top:20px;
+	padding-right :20px;
+	padding-left:20px;
+	background-color: #FFB74D; 
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+    padding-bottom:30px;
+    
+    text-align-last: center;
+
+}
+.d1:hover,.d2:hover,.d3:hover,.d4:hover,.d5:hover,.d6:hover,.d7:hover,.d8:hover,.d9:hover{
+	box-shadow: 8px 8px 16px black;
+
+}
+.d1 img,.d2 img,.d3 img,.d4 img,.d5 img,.d6 img,.d7 img,.d8 img,.d9 img{
+	border-radius: 20px;
+
+}
+.d1 span,.d2 span,.d3 span,.d4 span,.d5 span,.d6 span,.d7 span,.d8 span,.d9 span{
+	
+	color: #000080;
+	font-size: 20px;
+
+}
+.name{
+	font-family: helvetica;
+	font-size: 30px;
+	color: #191970;
+	
+}
+.d1 span:hover,.d2 span:hover,.d3 span:hover,.d4 span:hover,.d5 span:hover,.d6 span:hover,.d7 span:hover,.d8 span:hover,.d9 span:hover{
+	color: #FFD700;
+	text-shadow: 2px 2px 4px black;
+}
+button{
+	background-color: red;
+	width: 80px;
+	height: 40px;
+	border-radius: 20px;
+	
+}
+.buy{
+	color: orange;
+	border: none;
+}
+
+
+
+
+
+
+.footer{
+	height: 200px;
+	background-color: black;
+	display: flex;
+}
+.footer img{
+	
+	height: 200px;
+	padding-left: 500px;
+
+}
+.follow{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	
+}
+.feedback{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	padding-left:500px;
+	
+}
+.copyright{
+	padding-top: 10px;
+	background-color: black;
+	margin: 0px;
+	text-align: center;
+	color: white;
+}

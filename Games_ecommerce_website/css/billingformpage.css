@@ -1,0 +1,206 @@
+.headercontainer{
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	
+	background-color:black;
+	display: flex;
+}
+.themeorange{
+	z-index: -9;
+	background-color: #2F4F4F;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.logo{
+padding-left: 50px;
+}
+.particles{
+	background-color: black;
+	height: 100px;
+	width: 800px;
+	}
+
+hr.hr1{
+	background-color: red;
+	height:15px;
+	margin: 0px;
+	animation: load 1s linear infinite;
+	
+}
+@keyframes load{
+	0%{background-image: linear-gradient(90deg,#FFCC80,#FFB74D)}
+	10%{background-image: linear-gradient(90deg,#FFB74D,#FFEE58)}
+	20%{background-image: linear-gradient(90deg,#FFEE58,#FFA726)}
+	30%{background-image: linear-gradient(90deg,#FFA726,#FF9800)}
+	40%{background-image: linear-gradient(90deg,#FF9800,#FFB74D)}
+	50%{background-image: linear-gradient(90deg,#FFB74D,#FB8C00)}
+	60%{background-image: linear-gradient(90deg,#FF9800,#FFB74D)}
+	70%{background-image: linear-gradient(90deg,#FFA726,#FF9800)}
+	80%{background-image: linear-gradient(90deg,#F08080,#FFA726)}
+	90%{background-image: linear-gradient(90deg,#FFB74D,#F08080)}
+	100%{background-image: linear-gradient(90deg,#FFCC80,#FFB74D)}
+
+}
+.nav {
+
+	height: 100px;
+	margin: 0px;
+	display:flex;
+	
+}
+a{
+	text-decoration: none;
+	font-family: helvetica;
+}
+.nav0,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+padding: 10px;
+
+margin:20px;
+font-size:15px; 
+}
+.a0 i {
+	color: red;
+
+}
+.a0 span{
+	opacity: 0;
+	color: red;
+}
+.a1 i{
+	color: #6AFF09;
+}
+.a1 span{
+	opacity: 0;
+	color: #6AFF09;
+}
+
+.a2 i{
+	color: blue;
+}
+.a2 span{
+	opacity: 0;
+	color: blue;
+}
+}
+.a3 i{
+	color: orange;
+}
+.a3 span{
+	opacity: 0;
+	color: orange;
+}
+.a4 i{
+	color: #FF00E2;
+}
+.a4 span{
+	opacity: 0;
+	color: #FF00E2;
+}
+.a5 i{
+	color: yellow;
+}
+.a5 span{
+	opacity: 0;
+	color: yellow;
+}
+.a6 i{
+	color: pink;
+}
+.a6 span{
+	opacity: 0;
+	color: pink;
+}
+
+
+
+.nav0:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
+	transform: translateY(-10px);
+}
+.nav0 .a0 span:hover,.nav1 .a1 span:hover,.nav2 .a2 span:hover,.nav3 .a3 span:hover,.nav4 .a4 span:hover,.nav5 .a5 span:hover,.nav6 .a6 span:hover{
+	opacity: 1;
+	
+}
+
+.form{
+	background-color: #FFD54F;
+	margin-top: 100px;
+	border-radius: 20px;
+	width: 500px;
+	margin-left: 500px;
+	padding-bottom: 80px;
+}
+.logo{
+	
+	padding-left: 200px;
+}
+form h2{
+	color: #E65100;
+	font-family: consolas;
+	padding-left: 0px;
+}
+form{
+	padding-left: 150px;
+
+}
+form label{
+	padding: 10px;
+	color: #E65100;
+}
+form input{
+	height: 30px;
+	box-shadow: 4px 4px 8px #E65100;
+	border-radius: 10px;
+}
+select{
+	height: 30px;
+	box-shadow: 4px 4px 8px #E65100;
+	border-radius: 10px;
+}
+.form form button{
+	margin: 20px;
+	width: 150px;
+	border: none;
+	background-image: linear-gradient(60deg,red,grey,red);
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+
+}
+.form form button:hover{
+	background-image: linear-gradient(60deg,orange,white,orange);
+	color: red;
+}
+
+.footer{
+	height: 200px;
+	background-color: black;
+	display: flex;
+}
+.footer img{
+	
+	height: 200px;
+	padding-left: 500px;
+
+}
+.follow{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	
+}
+.feedback{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	padding-left:500px;
+	
+}
+.copyright{
+	padding-top: 10px;
+	background-color: black;
+	margin: 0px;
+	text-align: center;
+	color: white;
+}

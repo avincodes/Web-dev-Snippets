@@ -1,0 +1,223 @@
+.headercontainer{
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	
+	background-color:black;
+	display: flex;
+}
+.themeyellow{
+	z-index: -9;
+	background-color: #2F4F4F;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.logo{
+padding-left: 50px;
+}
+.particles{
+	background-color: black;
+	height: 100px;
+	width: 800px;
+	}
+
+hr.hr1{
+	background-color: red;
+	height:15px;
+	margin: 0px;
+	animation: load 1s linear infinite;
+	
+}
+@keyframes load{
+	0%{background-image: linear-gradient(90deg,#FFF9C4,#FFF59D)}
+	10%{background-image: linear-gradient(90deg,#FFF59D,#FFF176)}
+	20%{background-image: linear-gradient(90deg,#FFF176,#FFEE58)}
+	30%{background-image: linear-gradient(90deg,#FFEE58,#FFEB3B)}
+	40%{background-image: linear-gradient(90deg,#FFEB3B,#FFF59D)}
+	50%{background-image: linear-gradient(90deg,#FFF59D,#FDD835)}
+	60%{background-image: linear-gradient(90deg,#FFEB3B,#FFF59D)}
+	70%{background-image: linear-gradient(90deg,#FFEE58,#FFEB3B)}
+	80%{background-image: linear-gradient(90deg,#FFF176,#FFEE58)}
+	90%{background-image: linear-gradient(90deg,#FFF59D,#FFF176)}
+	100%{background-image: linear-gradient(90deg,#FFF9C4,#FFF59D)}
+
+}
+.nav {
+
+	height: 100px;
+	margin: 0px;
+	display:flex;
+	
+}
+a{
+	text-decoration: none;
+	font-family: helvetica;
+}
+.nav0,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+padding: 10px;
+
+margin:20px;
+font-size:15px; 
+}
+.a0 i {
+	color: red;
+
+}
+.a0 span{
+	opacity: 0;
+	color: red;
+}
+.a1 i{
+	color: #6AFF09;
+}
+.a1 span{
+	opacity: 0;
+	color: #6AFF09;
+}
+
+.a2 i{
+	color: blue;
+}
+.a2 span{
+	opacity: 0;
+	color: blue;
+}
+}
+.a3 i{
+	color: orange;
+}
+.a3 span{
+	opacity: 0;
+	color: orange;
+}
+.a4 i{
+	color: #FF00E2;
+}
+.a4 span{
+	opacity: 0;
+	color: #FF00E2;
+}
+.a5 i{
+	color: yellow;
+}
+.a5 span{
+	opacity: 0;
+	color: yellow;
+}
+.a6 i{
+	color: pink;
+}
+.a6 span{
+	opacity: 0;
+	color: pink;
+}
+
+
+
+.nav0:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
+	transform: translateY(-10px);
+}
+.nav0 .a0 span:hover,.nav1 .a1 span:hover,.nav2 .a2 span:hover,.nav3 .a3 span:hover,.nav4 .a4 span:hover,.nav5 .a5 span:hover,.nav6 .a6 span:hover{
+	opacity: 1;
+	
+}
+
+.container{
+	background-color: #F0E68C;
+	margin: 80px;
+	border-radius: 20px;
+	padding-bottom: 10px;
+
+
+}
+.text{
+	color: brown;
+	padding:20px;
+	text-align-last: center;
+	font-size: 50px;
+	font-family: verdana;
+	text-decoration: underline;
+
+
+}
+.offer{
+	color: #000080;
+	padding: 10px;
+	
+	text-align-last: center;
+	font-size: 30px;	
+
+
+
+}
+.btn{
+	
+	text-align-last: center;
+
+}
+.btn{
+	padding:10px;
+	background-color:orange;
+	height: 35px;
+	width: 	220px;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-left: 460px;
+	font-weight: bold;
+}
+.buy{
+	padding:10px;
+	margin-left: 520px;
+	background-color:red;
+	color: yellow;
+	border-radius: 20px;
+	
+	margin-bottom: 20px;
+
+
+}
+.buy a {
+	color: yellow;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+.footer{
+	height: 200px;
+	background-color: black;
+	display: flex;
+}
+.footer img{
+	
+	height: 200px;
+	padding-left: 500px;
+
+}
+.follow{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	
+}
+.feedback{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	padding-left:500px;
+	
+}
+.copyright{
+	padding-top: 10px;
+	background-color: black;
+	margin: 0px;
+	text-align: center;
+	color: white;
+}

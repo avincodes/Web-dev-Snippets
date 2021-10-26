@@ -1,0 +1,241 @@
+.headercontainer{
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	
+	background-color:black;
+	display: flex;
+}
+
+.logo{
+padding-left: 50px;
+}
+.particles{
+	background-color: black;
+	height: 100px;
+	width: 800px;
+	}
+
+hr.hr1{
+	background-color: red;
+	height:15px;
+	margin: 0px;
+	animation: load 1s linear infinite;
+	
+}
+@keyframes load{
+	0%{background-image: linear-gradient(90deg,#FFC0CB,#FFB6C1)}
+	10%{background-image: linear-gradient(90deg,#FFB6C1,#FF69B4)}
+	20%{background-image: linear-gradient(90deg,#FF69B4,#FF1493)}
+	30%{background-image: linear-gradient(90deg,#FF1493,#DB7093)}
+	40%{background-image: linear-gradient(90deg,#DB7093,#C71585)}
+	50%{background-image: linear-gradient(90deg,#C71585,#FFC0CB)}
+	60%{background-image: linear-gradient(90deg,#DB7093,#C71585)}
+	70%{background-image: linear-gradient(90deg,#FF1493,#DB7093)}
+	80%{background-image: linear-gradient(90deg,#FF69B4,#FF1493)}
+	90%{background-image: linear-gradient(90deg,#FFB6C1,#FF69B4)}
+	100%{background-image: linear-gradient(90deg,#FFC0CB,#FFB6C1)}
+
+}
+.themepink{
+	z-index: -9;
+	background-color: #2F4F4F;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.nav {
+
+	height: 100px;
+	margin: 0px;
+	display:flex;
+	
+}
+a{
+	text-decoration: none;
+	font-family: helvetica;
+}
+.nav0,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+padding: 10px;
+
+margin:20px;
+font-size:15px; 
+}
+.a0 i {
+	color: red;
+
+}
+.a0 span{
+	opacity: 0;
+	color: red;
+}
+.a1 i{
+	color: #6AFF09;
+}
+.a1 span{
+	opacity: 0;
+	color: #6AFF09;
+}
+
+.a2 i{
+	color: blue;
+}
+.a2 span{
+	opacity: 0;
+	color: blue;
+}
+}
+.a3 i{
+	color: orange;
+}
+.a3 span{
+	opacity: 0;
+	color: orange;
+}
+.a4 i{
+	color: #FF00E2;
+}
+.a4 span{
+	opacity: 0;
+	color: #FF00E2;
+}
+.a5 i{
+	color: yellow;
+}
+.a5 span{
+	opacity: 0;
+	color: yellow;
+}
+.a6 i{
+	color: pink;
+}
+.a6 span{
+	opacity: 0;
+	color: pink;
+}
+
+
+
+.nav0:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
+	transform: translateY(-10px);
+}
+.nav0 .a0 span:hover,.nav1 .a1 span:hover,.nav2 .a2 span:hover,.nav3 .a3 span:hover,.nav4 .a4 span:hover,.nav5 .a5 span:hover,.nav6 .a6 span:hover{
+	opacity: 1;
+	
+}
+.form{
+	margin: 30px;
+	margin-left: 550px;
+	margin-right: 550px;
+	background-color: #FFC0CB;
+	border-radius: 20px;
+	box-shadow: 4px 4px 8px black;
+}
+.formlogo img{
+	transform: scale(0.6);
+	margin-left: 115px;
+
+}
+form{
+	margin-left: 120px;
+
+}
+form h1{
+	font-family: consolas;
+	color: #4B0082;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+.ID,.idpswrd{
+	color: #4B0082;
+	font-weight: bold;
+	padding-top: 10px;
+
+}
+.form form input{
+	box-shadow: 2px 2px 4px #4B0082; 
+	border-radius: 10px;
+	width: 200px;
+	height: 30px;	
+}
+form select{
+	box-shadow: 2px 2px 4px #4B0082; 
+	border-radius: 10px;
+	width: 200px;
+	height: 30px;
+}
+form span{
+	padding: 10px;
+}
+.form form button{
+	margin: 20px;
+	width: 150px;
+	border: none;
+	background-image: linear-gradient(60deg,purple,pink,purple);
+	padding: 10px;
+	color: yellow;
+	font-size: 20px;
+	border-radius: 10px;
+
+}
+.form form button:hover{
+	background-image: linear-gradient(60deg,yellow,white,yellow);
+	color: purple;
+
+}
+.container{
+	
+	color: pink;
+}
+.container span{
+	padding-left: 530px;
+	margin: 0px;
+}
+.hr2{
+	width: 800px;
+	color: pink
+}
+.btn a{
+	padding-left: 725px; 
+}
+.btn a button{
+	background-image: linear-gradient(60deg,purple,pink,purple);
+	padding: 10px;
+	color: yellow;
+	border: none;
+	border-radius: 10px;
+}
+.btn a button:hover{
+	background-image: linear-gradient(60deg,yellow,white,yellow);
+	color: purple;
+}
+.footer{
+	height: 200px;
+	background-color: black;
+	display: flex;
+}
+.footer img{
+	
+	height: 200px;
+	padding-left: 500px;
+
+}
+.follow{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	
+}
+.feedback{
+	font-size: 20px;
+	color:white;
+	margin: 10px;
+	padding-left:500px;
+	
+}
+.copyright{
+	padding-top: 10px;
+	background-color: black;
+	margin: 0px;
+	text-align: center;
+	color: white;
+}
