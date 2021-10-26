@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id ="back">
+    <div id="container">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    
+    <script src="quiz.js"></script>
+</div>
+</body>
+</html>
+
+
+<!-- let questions = [
+    {
+        question : "Little interest or pleasure in doing things",
+        
+        choiceA : "Often",
+        choiceB : "sometimes",
+        choiceC : "rarely",
+        correct : "A"
+    },{
+        question : "Feeling down, depressed, or hopeless",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    },{
+        question : "Trouble falling or staying asleep, or sleeping too much",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    },{
+        question : "Feeling tired or having little energy",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+
+
+    },{
+        question : "Poor appetite or overeating",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    },{
+        question : "Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    },{
+        question : "Trouble concentrating on things, such as reading the newspaper or watching television",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    },{
+        question : "If you've had any days with issues above, how difficult have these problems made it for you at work, home, school, or with other people?",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    },{
+        question : "Moving or speaking so slowly that other people could have noticed",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    },{
+        question : "Thoughts that you would be better off dead, or of hurting yourself",
+        
+        choiceA : "Often",
+        choiceB : "Sometimes",
+        choiceC : "Rarely",
+        correct : "C"
+    }
+]; -->
