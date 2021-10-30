@@ -1,0 +1,6 @@
+img:hover{
+              opacity:0.7; /* how much transparent you want image to be*/
+              filter:alpha(opacity=60); /* browser fix*/
+              -webkit-opacity:0.7; /*vendor prefixes for website browsers*/
+              -moz-opacity:0.7; /* same as above, edited thankx to @ Daniel_Lisik  */
+            }
