@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+body{
+  display: grid;
+  place-items: center;
+  background: #131419;
+}
+.clock{
+  background: #131419;
+  height: 120px;
+  
+  line-height: 120px;
+  text-align: center;
+  padding: 0 30px;
+  box-shadow: -3px -3px 7px rgba(255,255,255,0.05),
+               3px 3px 5px rgba(0,0,0,0.5);
+}
+.clock .display{
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  font-family: 'Quicksand', sans-serif;}
