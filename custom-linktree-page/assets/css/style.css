@@ -1,0 +1,145 @@
+body {
+  background: linear-gradient(-45deg, #d35ecd, #5aad45, #23a6d5, #3a0eb3);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: auto;
+  max-width: 100px;
+}
+
+.profile-name {
+  text-align: center;
+  padding: 10px;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.profile-about {
+  text-align: center;
+  padding: 2px;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-width: 1px;
+  width: 490px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  font-family: "Dosis", sans-serif;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.links-in {
+  padding: 5px;
+  border: 0.5px solid rgba(255, 255, 255, 0);
+  border-width: 1px;
+  width: 30px;
+  display: block;
+  border-radius: 40px;
+  left: 20px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 1s;
+}
+
+.hover:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.bottom-text {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Handlee", cursive;
+}
+
+.link-hide {
+  text-decoration: none;
+}
+.link-hide:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 548px) {
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-width: 1px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-family: "Dosis", sans-serif;
+    position: relative;
+  }
+  .profile-about {
+    text-align: center;
+    padding: 2px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}
+
+.links-footer {
+  padding: 4px;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-width: 1px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 50px;
+}
