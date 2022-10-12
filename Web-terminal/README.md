@@ -10,4 +10,7 @@
 4. Type a color between the range to change the color scheme
 5. Type `version` to get the version
 
+![Web terminal](./images/screenshot.png)
+![Web terminal](./images/screenshot2.png)
+
 ##### Created by - Janupa silva
