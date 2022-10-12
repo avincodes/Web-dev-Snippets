@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web Terminal</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="welcome">
+        <h3 class="history-content">
+          Welcome to web terminal. This is kinda a terminal, but it is not :)
+          <br />
+          Type help to see more...
+        </h3>
+      </div>
+      <div id="history"></div>
+      <div class="input-container">
+        <span id="header"></span>
+        <input type="text" id="input" autocomplete="off" />
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
