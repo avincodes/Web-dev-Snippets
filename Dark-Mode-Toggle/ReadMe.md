@@ -40,7 +40,7 @@ Example:
 ## Screenshots
 
 #### Light Mode
-![]("./darkMode.png")
+![Light](lightMode.png)
 
-#### Light Mode
-![]("./lightMode.png")
+#### Dark Mode
+![Dark](darkMode.png)
