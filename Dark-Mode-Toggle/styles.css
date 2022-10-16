@@ -1,0 +1,128 @@
+:root {
+    /* light theme */
+    --light-bg-color: #fff;
+    --light-text-color: #151515;
+    --light-btn-color: #78ccf3;
+    --light-switch-color: #41f675;
+
+    /* dark theme */
+    --dark-bg-color: #151515;
+    --dark-text-color: #fff;
+    --dark-btn-color: #076a98;
+    --dark-switch-color: #05942e;
+}
+
+/* ------------------------default base CSS--------------------------- */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Container styling */
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* light theme color styling for container */
+
+.light.container {
+    background-color: var(--light-bg-color);
+    color: var(--light-text-color);
+    transition: all 0.3s ease;
+}
+
+/* dark theme color styling for container */
+
+.dark.container {
+    background-color: var(--dark-bg-color);
+    color: var(--dark-text-color);
+    transition: all 0.3s ease;
+}
+
+.container h1 {
+    margin-top: 70px;
+}
+
+.content {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    top: 25%;
+    text-transform: uppercase;
+}
+
+.content button,
+.content .switch {
+    cursor: pointer;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+}
+
+.content button {
+    margin-top: 30px;
+}
+
+/* light theme color styling for button */
+
+.light .content button {
+    background-color: var(--light-btn-color);
+    color: var(--light-text-color);
+}
+
+/* dark theme color styling for button */
+
+.dark .content button {
+    background-color: var(--dark-btn-color);
+    color: var(--dark-text-color);
+}
+
+/* hiding the default checkbox input */
+input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.switch {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+/* light theme color styling for switch checkbox */
+
+.light .switch {
+    background-color: var(--light-switch-color);
+    color: var(--light-text-color);
+}
+
+/* dark theme color styling for switch checkbox */
+
+.dark .switch {
+    background-color: var(--dark-switch-color);
+    color: var(--dark-text-color);
+}

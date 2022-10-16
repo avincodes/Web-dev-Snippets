@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container" class="container light">
+        <h1>Snippet to show Basic Theme Change</h1>
+        <div class="content">
+            <h2>Using Button and Onclick</h2>
+            <!-- Button with onClick function to toggle theme -->
+            <button onclick="toggleFunc()">Toggle Mode</button>
+        </div>
+        <div class="content">
+            <h2>Using Checkbox Input</h2>
+            <!-- Custom checkbox btn which is attached with event listener -->
+            <!-- For more about custom checkbox: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp -->
+            <label for="switch" class="switch">
+                <input type="checkbox" name="switch" id="switch">
+                <span>Checkbox Toggle</span>
+            </label>
+        </div>
+    </div>
+
+    <script src="./toggle.js"></script>
+</body>
+
+</html>
