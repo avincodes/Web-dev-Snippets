@@ -1,4 +1,6 @@
-I have added a calculator web page. I have used simple HTML, CSS and JAVASCRIPT in it.
+This is a web page called calculator. It will help you to do some basic calculation such as addition, subtraction, multiplication and division. 
+This web page is created by using HTML, CSS and JAVASCRIPT.
+
 
 Here ae the screenshots of the project.
 
