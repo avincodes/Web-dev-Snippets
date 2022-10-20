@@ -2,7 +2,7 @@ This is a web page called calculator. It will help you to do some basic calculat
 This web page is created by using HTML, CSS and JAVASCRIPT.
 
 
-Here ae the screenshots of the project.
+Here are the screenshots of the project.
 
 ![Screenshot (244)](https://user-images.githubusercontent.com/96721263/196392212-c0469b61-1f0f-4ffc-b727-e7f02612b038.png)
 ![Screenshot (245)](https://user-images.githubusercontent.com/96721263/196392377-1b9700be-58cc-4640-bfec-257316819db2.png)
