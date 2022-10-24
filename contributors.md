@@ -4,5 +4,5 @@ This file is being created, please follow readme instructions while it is being 
 
 Automatic Config
 
+##how to clone the repo
 
--------------------- Add user content from here ---------------------
