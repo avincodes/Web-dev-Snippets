@@ -1,6 +1,6 @@
 ##Contritbutor Guidelines!
 
-This file is being created, please follow readme instructions while it is being created
+Please follow the following instructions to make a pull request to the repo!
 
 - Fork the repo
 - Clone the repo to your local environment
