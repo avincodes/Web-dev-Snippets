@@ -1,0 +1,16 @@
+#card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+p{
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
