@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Tip calculator app</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="app-title">Tip Calculator</div>
+
+        <div class="bill-container">
+            <div class="inputs-container">
+                <div class="input-group">
+                    <label for="bill">Bill</label>
+                    <input type="number" name="bill" id="bill" placeholder="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="tip">Select Tip %</label>
+                    <div class="tip-button-group">
+                        <div class="tip-button active" value="5">5%</div>
+                        <div class="tip-button" value="10">10%</div>
+                        <div class="tip-button" value="15">15%</div>
+                        <div class="tip-button" value="25">25%</div>
+                        <div class="tip-button" value="50">50%</div>
+                        <input type="number" class="tip-button custom" placeholder="Custom">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="people">Number of People</label>
+                    <input type="number" name="people" id="peolpe" placeholder="0" value="1">
+                </div>
+            </div>
+
+            <div class="result-card">
+                <div class="info-row">
+                    <div class="amount-row">
+                        <div class="amount-info">
+                            <div class="amount-title">Tip Amount</div>
+                            <div class="amount-for">/ person</div>
+                        </div>
+                        <div class="amount-bill" id="person-bill">$0.00</div>
+                    </div>
+                    <div class="amount-row">
+                        <div class="amount-info">
+                            <div class="amount-title">Total</div>
+                            <div class="amount-for">/ person</div>
+                        </div>
+                        <div class="amount-bill" id="total-bill">$0.00</div>
+                    </div>
+                </div>
+
+                <div class="reset-button">RESET</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+       Coded by <a href="https://github.com/ihtishamKhan">Ihtisham</a>.
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
