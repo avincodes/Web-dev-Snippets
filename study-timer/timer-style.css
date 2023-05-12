@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+  }
+  
+  .clock-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .clock {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .clock-face {
+    fill: #fff;
+    stroke: #f74949;
+    stroke-width: 2px;
+  }
+  
+  #timer {
+    font-size: auto;
+    fill: #f74949;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  

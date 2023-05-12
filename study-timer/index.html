@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timer-style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Study Timer</h1>
+        <div class="clock-container">
+            <svg class="clock" viewBox="0 0 100 100">
+              <circle class="clock-face" cx="50" cy="50" r="45" />
+              <text id="timer" x="50" y="50" text-anchor="middle" dy="7">25:00</text>
+            </svg>
+          </div>
+          <div class="button-container">
+            <button class="start" onclick="startTimer()">Start Timer</button>
+
+            <button class="pause" onclick="pauseResumeTimer()">Pause Timer</button>
+            <button class="reset" onclick="resetTimer()">Reset Timer</button>
+
+            <br>
+            <button class="break" onclick="startBreak()">Start Break</button>
+            </div>
+          </div>
+          <audio id="audio" src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"></audio>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
