@@ -1,4 +1,4 @@
-##Contritbutor Guidelines!
+#Contritbutor Guidelines!
 
 Please follow the following instructions to make a pull request to the repo!
 
